@@ -9,12 +9,12 @@
 
         <!-- Content -->
         <h2>ATENÇÃO!</h2>
-        <p>Essa é uma aplicação em fase de testes. A segurança da aplicação não é uma prioridade para os desenvolvedores no momento, portanto, use uma conta "descartável" para poder conectar e fazer o sorteio.</p>
-        <p>Crie uma nova conta no site do Instagram e coloque as credenciais abaixo junto com o link da publicação do sorteio</p>
+        <h3>Essa é uma aplicação em fase de testes.</h3>
+        <p>Use a sua ou crie uma nova conta no site do Instagram e coloque as credenciais abaixo junto com o link da publicação do sorteio</p>
         <p>O link do Instagram se parece com isso: https://www.instagram.com/p/ABCDEF123456/ --- A parte que você precisa digitar abaixo (código da postagem) é apenas a última parte do link, que nesse exemplo é ABCDEF123456, mas no seu link será diferente</p>
         <br><br>
         <h3>Como funciona?</h3>
-        <p>A aplicação carrega todos os comentários da postagem e usando os filtros que você definir, vai fazer o sorteio de forma <a href="https://www.inf.ufpr.br/roberto/ci067/p1_rand.html">PSEUDO ALEATÓRIA</a> dos comentários</p>
+        <p>A aplicação carrega todos os comentários da postagem e usando os filtros que você definir, vai fazer o sorteio de forma aleatória <a href="https://www.inf.ufpr.br/roberto/ci067/p1_rand.html">(com suas limitações, clique aqui se quiser ler mais sobre)</a> dos comentários</p>
         <p>Isso significa que cada comentário tem chances praticamente iguais de ser escolhido.</p>
         <p>Por enquanto, essa aplicação suporta no máximo 2 mil comentários.</p>
         <form action="fetch_instagram_data.php" method="POST">
